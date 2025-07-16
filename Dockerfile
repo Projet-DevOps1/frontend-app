@@ -12,7 +12,7 @@ ENV VITE_API_URL=${VITE_API_URL}
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install  --force
+RUN npm install  
 
 # Copy the rest of the client code
 COPY . .
